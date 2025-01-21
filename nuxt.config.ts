@@ -1,39 +1,21 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: false },
-  compatibilityDate: "2024-07-03",
-  modules: ["usebootstrap", "@nuxt/eslint"],
   css: [
-    "./assets/scss/custom.scss"
+    'bootstrap/dist/css/bootstrap.min.css'
   ],
-  vite: {
-    css: {
-      preprocessorOptions: {
-        scss: {
-          additionalData: `
-           @import "@/assets/scss/_variables.scss";
-           `,
-        },
-      },
+  app: {
+    head: {
+      title: 'Portfolio',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      ],
+      script: [
+        {
+          src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js',
+          type: 'text/javascript'
+        }
+      ]
     }
-  },
-  eslint: {
-    config: {
-      stylistic: {
-        indent: 1,
-        semi: true,
-      }
-    }
-  },
-  usebootstrap: {
-    integration: {
-     protocol: {
-      reqres: {
-       type: 'fetch',
-       prefix: 'https://reqres.in/api/',
-      },
-     },
-    },
-   },
-}
-)
+  }
+})

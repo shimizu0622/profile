@@ -1,35 +1,18 @@
-<script setup lang="ts">
-definePageMeta({
-  layout: 'landing',
-  title: 'About use-bootstrap',
-  description: 'Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.'
-})
-</script>
 <template>
-      
-  <Container margin="t-5">
-    <HeroHeadingsDescription />
-  </Container>
-  <HeroLandingVb />
-  <Container margin="y-5">
-    <ColumnsOurService />
-  </Container>
-  <Background background-color="blue-100" pattern-src="/hero-patterns/jigsaw.svg" :pattern-parallax="0.05" margin="y-5">
-    <Container margin="y-5">
-      <ColumnsOurServiceHighlights />
-    </Container>
-  </Background>
-  <Container margin="y-5">
-    <BlocksKeyBenefits />
-  </Container>
-  <hr />
-  <Container margin="y-5">
-    <ColumnsServiceStats />
-  </Container>
-  <Background background-color="body-secondary" pattern-src="/hero-patterns/texture.svg" margin="y-5">
-    <Container margin="y-5">
-      <ColumnsSuccessStories />
-    </Container>
-  </Background>
-
+  <div class="bg-dark text-light min-vh-100 d-flex align-items-center">
+    <div class="container py-5">
+      <div class="text-center">
+        <h1 class="display-1 fw-bold mb-5">ポートフォリオ</h1>
+        <p class="lead fs-3 mb-5">私のポートフォリオサイトにお越しいただき、ありがとうございます。 このサイトでは、私自身についてと将来の目標について紹介しています。</p>
+        <div class="d-flex justify-content-center gap-4">
+          <NuxtLink to="/profile" class="btn btn-primary btn-lg px-5 py-3">
+            プロフィールを見る
+          </NuxtLink>
+          <NuxtLink to="/future-goals" class="btn btn-outline-light btn-lg px-5 py-3">
+            目標を見る
+          </NuxtLink>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>

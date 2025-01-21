@@ -1,6 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
-  title: 'About use-bootstrap',
+  title: 'profile site',
   description: 'Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.'
 })
 </script>
