@@ -3,7 +3,7 @@
     <div class="container py-5">
       <div class="text-center">
         <h1 class="display-1 fw-bold mb-5">ポートフォリオ</h1>
-        <p class="lead fs-3 mb-5">私のポートフォリオサイトにお越しいただき、ありがとうございます。 このサイトでは、私自身についてと将来の目標について紹介しています。</p>
+        <p class="lead fs-3 mb-5">私のポートフォリオサイトにお越しいただき、ありがとうございます。<br> このサイトでは、私自身についてと将来の目標について紹介しています。</p>
         <div class="d-flex justify-content-center gap-4">
           <NuxtLink to="/profile" class="btn btn-primary btn-lg px-5 py-3">
             プロフィールを見る
