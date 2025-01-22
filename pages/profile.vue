@@ -11,21 +11,21 @@
             <div class="col-md-6">
               <div class="mb-4">
                 <h3 class="h5">氏名</h3>
-                <p>あなたの名前</p>
+                <p>清水晴斗</p>
               </div>
               <div class="mb-4">
                 <h3 class="h5">職業</h3>
-                <p>Web開発者</p>
+                <p>学生</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="mb-4">
-                <h3 class="h5">生年月日</h3>
-                <p>YYYY年MM月DD日</p>
+                <h3 class="h5">年齢</h3>
+                <p>19歳</p>
               </div>
               <div class="mb-4">
                 <h3 class="h5">出身地</h3>
-                <p>○○県</p>
+                <p>滋賀県</p>
               </div>
             </div>
           </div>
@@ -36,25 +36,13 @@
       <div class="mb-5">
         <div class="card bg-dark text-light border-light mb-5">
           <div class="card-body">
-            <h3 class="card-title h4">これまでの経歴</h3>
+            <h3 class="card-title h4">過去</h3>
             <div class="mt-4">
-              <h4 class="h6 text-light">学歴</h4>
-              <ul class="list-unstyled ps-3">
-                <li class="mb-2">20XX年 ○○高等学校 卒業</li>
-                <li class="mb-2">20XX年 ○○大学 ○○学部 卒業</li>
-              </ul>
-              
-              <h4 class="h6 text-light mt-4">職歴</h4>
-              <ul class="list-unstyled ps-3">
-                <li class="mb-2">20XX年 ○○会社 入社</li>
-                <li class="mb-2">20XX年 ○○プロジェクト担当</li>
-              </ul>
-              
-              <h4 class="h6 text-light mt-4">保有資格</h4>
-              <ul class="list-unstyled ps-3">
-                <li class="mb-2">・基本情報技術者</li>
-                <li class="mb-2">・○○資格</li>
-              </ul>
+              <h4 class="h6 text-light">小中高性時代</h4>
+              <p>
+              小中高と、スポーツに励んでいました。小学3年で地元のサッカースポーツ少年団に入り、４年間プレーしました。
+              </p>
+            
             </div>
           </div>
         </div>
